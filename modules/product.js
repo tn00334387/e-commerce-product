@@ -53,7 +53,7 @@ const ProductModule = {
         }
     },
 
-// 创建新产品
+    // 创建新产品
     CreateProduct: async (req, res) => {
         const { name, description, price, imageUrl, stock } = req.body;
         try {
@@ -80,7 +80,6 @@ const ProductModule = {
         }
     },
 
-// 更新产品
     UpdateProduct: async (req, res) => {
 
         const { name, description, price, imageUrl, stock } = req.body;
